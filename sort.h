@@ -20,7 +20,7 @@ true
 
 /**
  * struct listint_s - Doubly linked list node
- * @n: Integer 
+ * @n: integer
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
  */
