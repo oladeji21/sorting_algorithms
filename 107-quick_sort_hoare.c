@@ -30,7 +30,7 @@ tmp = *a;
 void hoare_sort(int *array, size_t size, int left, int right)
 {
 int part;
-	
+
 if (right - left > 0)
 {
 part = hoare_partition(array, size, left, right);

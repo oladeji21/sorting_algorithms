@@ -35,7 +35,7 @@ return;
 sorted = malloc(sizeof(int) * size);
 if (sorted == NULL)
 return;
-max = get_max(array, size);	
+max = get_max(array, size);
 count = malloc(sizeof(int) * (max + 1));
 if (count == NULL)
 {
